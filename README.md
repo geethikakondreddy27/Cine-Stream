@@ -34,7 +34,7 @@ Users can discover trending movies, search for films instantly, save favorites, 
 
 ##  Live Demo
 
-- Vercel deployment :
+- Vercel deployment : https://cine-stream-bay.vercel.app/ 
 
 ---
 
