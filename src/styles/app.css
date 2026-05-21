@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-dark:#020617;
+    --bg-secondary:#0f172a;
+    --accent-purple:#8b5cf6;
+    --accept-blue:#3b82f6;
+    --accept-pink:#ec4899;
+    --glass-bg:rgba(255,255,255,0.06);
+    --glass-border:rgba(255,255,255,0.12);
+}
+
+body{
+    min-height: 100vh;
+    color:white;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background: 
+           radial-gradient(circle at top left,
+           rgba(139,92,246,0.25),
+           transparent 30%),
+
+           radial-gradient(circle at top right,
+           rgba(59,130,246,0.2),
+           transparent 30%),
+
+           radial-gradient(circle at bottom center,
+           rgba(236,72,153,0.15),
+           transparent 30%),
+
+           linear-gradient(
+            135deg,
+            #020617,
+            #0f172a,
+            #111827
+           );
+           background-attachment: fixed;
+}
+
+body::before{
+    content:"";
+    position: fixed;
+    inset:0;
+
+    background: 
+      radial-gradient(corcle,rgba(255,255,255,0.3) 1px,transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+      z-index:-1;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+button{
+      cursor: pointer;
+      border:none;
+      outline:none;
+       transition:0.3s ease;
+}
+
+img{
+    width:100%;
+    max-width: 100%;
+    height:auto;
+    display: block;
+
+
+
+}
+
+.page-container{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    padding:  clamp(16px, 3vw, 40px)
+        clamp(14px, 5vw, 60px);
+}
+
+h1{
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    background: linear-gradient(
+        to right,
+         #ffffff,
+        #c4b5fd,
+        #93c5fd
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#111827;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        to bottom,
+        #8b5cf6,
+        #3b82f6
+    );
+    border-radius: 20px;
+}
+
+html{
+    font-size: clamp(14px,1vw,16px);
+}
+
+
