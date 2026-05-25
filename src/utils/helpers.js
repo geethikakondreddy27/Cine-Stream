@@ -27,7 +27,7 @@ export const getMovieFromMood = async(mood)=>{
     try{
 
         const response = await fetch(
-              "http://localhost:5000/mood",
+              "https://cine-stream-uiun.onrender.com/mood",
             {
                 method:"POST",
                 headers: {
