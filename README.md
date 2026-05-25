@@ -1,6 +1,6 @@
 # 🎬 Cine-Stream
 
-Cine-Stream is a modern AI-powered movie recommendation web application built using React and TMDB API.  
+Cine-Stream is a modern AI-powered movie recommendation web application built using React, Node.js, TMDB API, and OpenRouter API.  
 Users can discover trending movies, search for films instantly, save favorites, and even get AI-based movie recommendations based on mood or prompts.
 
 ---
@@ -25,6 +25,12 @@ Users can discover trending movies, search for films instantly, save favorites, 
 - Vite
 - CSS3
 - React Router DOM
+
+### Backend
+- Node.js
+- Express.js
+- Render
+- OpenRouter API
 
 ### APIs
 - TMDB API
